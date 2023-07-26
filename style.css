@@ -1,0 +1,42 @@
+*{
+box-sizing: border-box;
+}
+
+.login{
+    color:rgb(245, 244, 244);
+    display: flex;
+    padding:20%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url(image/images.jpg);  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+object-fit: cover;
+ }
+button{
+ margin-left: 30%;
+ }
+   form{
+    padding: 6%;
+    border-radius: 5px;
+    border: 0.5px solid rgb(232, 227, 227);
+    background-color: rgba(0, 0, 0, 0.15);
+   }
+
+.register{
+    color:rgb(245, 244, 244);
+    display: flex;
+    padding:20%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url(image/images2.jpg);  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+object-fit: cover;
+}
